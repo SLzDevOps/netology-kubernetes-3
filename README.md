@@ -5,19 +5,12 @@
 ## Ссылка на репозиторий - https://github.com/SLzDevOps/netology-kubernetes-3
 
 
-
-
-
 ### Задача 1
+   
+![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_974.png).
+![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_970.png).
+    
   
-![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_972.png).
-![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_973.png).
-![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_972.png).
-![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_973.png).
-  
-  
-  
-
 ### Задача 2
   
 ![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_972.png).
