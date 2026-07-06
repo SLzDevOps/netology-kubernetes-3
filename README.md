@@ -7,7 +7,7 @@
 
 ### Задача 1
 
-### файлы .yaml
+#### файлы .yaml
 https://github.com/SLzDevOps/netology-kubernetes-3/tree/main/task1
    
 ![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_974.png).
@@ -16,7 +16,7 @@ https://github.com/SLzDevOps/netology-kubernetes-3/tree/main/task1
   
 ### Задача 2
   
-### файлы .yaml
+#### файлы .yaml
 https://github.com/SLzDevOps/netology-kubernetes-3/tree/main/task2
   
 ![alt text](https://github.com/SLzDevOps/netology-kubernetes-3/blob/main/screenshot/Screenshot_972.png).
