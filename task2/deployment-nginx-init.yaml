@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-init-deployment
+  labels:
+    app: nginx-init
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-init
+  template:
+    metadata:
+      labels:
+        app: nginx-init
+    spec:
+      initContainers:
+      - name: wait-for-service
+        image: busybox:1.28
+        command:
+        - sh
+        - -c
+        - |
+          echo "Ждем запуска сервиса nginx-init-service..."
+          while true; do
+            if nslookup nginx-init-service; then
+              echo "Сервис найден! Запускаем nginx..."
+              exit 0
+            fi
+            echo "Сервис еще не запущен. Ожидание 5 секунд..."
+            sleep 5
+          done
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
